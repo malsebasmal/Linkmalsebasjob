@@ -1,0 +1,16 @@
+---
+import Copy from "@images/icons/Copy.astro"
+
+const { name, url, colors, icon: Icon } = Astro.props
+---
+
+<div>
+  <div>
+    <a href={url} class=`${colors}`>
+      <Icon /> {name}
+    </a>
+  </div>
+  <button>
+    <Copy />
+  </button>
+</Co>

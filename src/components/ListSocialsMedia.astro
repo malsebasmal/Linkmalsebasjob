@@ -1,0 +1,19 @@
+---
+import socialmedia from "@utils/socialmedia"
+import ButtonLink from "@components/ButtonLink.astro"
+---
+
+<div>
+  <ul>
+    {socialmedia.map((link) => {
+      <li>
+        <ButtonLink
+          name={link.name}
+          icon={link.icon}
+          url={link.url}
+          colors={link.colors}
+        />
+      </li>
+    })}
+  </ul>
+</div>
