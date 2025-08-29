@@ -1,10 +1,14 @@
 ---
 import Layout from "../layouts/Layout.astro"
 import Nav from "@components/Nav.astro"
-import Main from "@components/Main.astro"
+import Main from "@sections/Main.astro"
+import Footer from "@components/Footer.astro"
 ---
 
 <Layout>
-	<Nav />
-	<Main />
+	<div class="w-full h-dvh">
+		<Nav />
+		<Main />
+		<Footer />
+	</div>
 </Layout>
