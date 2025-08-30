@@ -15,3 +15,15 @@
   --font-kode: "Kode Mono Variable", monospace;
   --font-geist: "Geist Sans", sans-serif;
 }
+
+@layer utilities {
+  .animation1 {
+    @apply transition-all duration-200 ease-out
+  }
+}
+
+.animation1 {
+  transition-property: all;
+  transition-duration: 200ms;
+  ease-out
+}

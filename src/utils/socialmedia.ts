@@ -10,7 +10,9 @@ const socialmedia = [
     name: "LinkedIn",
     url: "https://www.linkedin.com/in/antoniomaldonadotech",
     icon: LinkedIn,
-    colors: ""
+    colors: {
+      bg: "bg-[#0a66c2]"
+    }
   },
   {
     name: "BlueSky",
