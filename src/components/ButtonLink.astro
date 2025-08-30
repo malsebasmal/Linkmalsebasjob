@@ -4,13 +4,13 @@ import Copy from "@images/icons/Copy.astro"
 const { name, url, colors, icon: Icon } = Astro.props
 ---
 
-<div class=`w-50 flex items-center justify-between ${colors.bg}`>
+<div class="w-full flex items-center justify-between border-2 rounded-2xl" style={`color: ${colors.text};`}>
   <div>
-    <a href={url} class=`${colors} w-full flex items-center justify-center gap-2`>
+    <a href={url} class="w-full flex items-center justify-center gap-2 pl-4 py-2 font-medium text-lg">
       <Icon class="size-10" /> <p>{name}</p>
     </a>
   </div>
-  <button>
+  <button class="p-4 text-white rounded-r-xl" style={`background-color: ${colors.text};`}>
     <Copy />
   </button>
 </div>

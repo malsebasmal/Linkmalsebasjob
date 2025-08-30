@@ -3,10 +3,10 @@ import socialmedia from "@utils/socialmedia"
 import ButtonLink from "@components/ButtonLink.astro"
 ---
 
-<div class="w-full">
-  <ul class="w-full flex flex-col items-center justify-center gap-2">
+<div class="w-full mt-6">
+  <ul class="w-full flex flex-col items-center justify-center gap-4">
     {socialmedia.map((link) => (
-      <li>
+      <li class="w-full">
         <ButtonLink
           name={link.name}
           icon={link.icon}

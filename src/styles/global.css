@@ -18,12 +18,6 @@
 
 @layer utilities {
   .animation1 {
-    @apply transition-all duration-200 ease-out
+    @apply transition-all duration-200 
   }
-}
-
-.animation1 {
-  transition-property: all;
-  transition-duration: 200ms;
-  ease-out
 }
