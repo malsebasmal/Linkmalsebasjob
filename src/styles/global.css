@@ -11,6 +11,8 @@
 @import '@fontsource/geist-sans/800.css';
 @import '@fontsource/geist-sans/900.css';
 
+@custom-variant dark (&:is(.dark *));
+
 @theme {
   --font-kode: "Kode Mono Variable", monospace;
   --font-geist: "Geist Sans", sans-serif;
