@@ -19,7 +19,7 @@
 }
 
 @layer utilities {
-  .animation1 {
-    @apply transition-all duration-200 
+  .hoverButton {
+    @apply transition-all duration-200 ease-in
   }
 }

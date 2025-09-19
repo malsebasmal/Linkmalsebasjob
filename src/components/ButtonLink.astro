@@ -4,13 +4,16 @@ import Copy from "@images/icons/Copy.astro"
 const { name, url, colors, icon: Icon } = Astro.props
 ---
 
-<div class="w-full flex items-center justify-between border-2 rounded-2xl cursor-pointer" style={`color: ${colors.text};`}>
-  <div class="w-full">
-    <a href={url} class="w-full flex items-center justify-start gap-2 pl-4 py-2 font-medium text-lg" target="_blank" rel="noopener noreferrer">
-      <Icon class="size-10" /> <p>{name}</p>
+<div  class="w-full flex items-center justify-between border-2 rounded-2xl cursor-pointer text-[var(--AllColors)] dark:border-2 dark:border-white dark:bg-[var(--AllColors)]"
+      style={`--AllColors: ${colors.text};`}
+>
+  <div class="w-full hoverButton hover:text-white rounded-l-xl hoverButton hover:bg-[var(--AllColors)]">
+    <a href={url} class="w-full flex items-center justify-start gap-2 pl-4 py-2 font-medium text-lg dark:text-white" target="_blank" rel="noopener noreferrer">
+      <Icon class="size-10" />
+      <p>{name}</p>
     </a>
   </div>
-  <button class="p-4 text-white rounded-r-xl" style={`background-color: ${colors.text};`}>
+  <button class="p-4 text-[var(colorsText)] dark:text-white rounded-r-xl border-l-2 border-[var(--AllColors)] dark:border-white hoverButton hover:bg-[var(--AllColors)] hover:text-white">
     <Copy />
   </button>
 </div>
