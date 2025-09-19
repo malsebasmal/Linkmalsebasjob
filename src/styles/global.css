@@ -22,4 +22,8 @@
   .hoverButton {
     @apply transition-all duration-200 ease-in
   }
+
+  .hoverText {
+    @apply transition-all duration-75 ease-in
+  }
 }
