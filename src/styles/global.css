@@ -27,3 +27,22 @@
     @apply transition-all duration-75 ease-in
   }
 }
+
+:root {
+  color-scheme: light dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../images/backgrounds/backgroundLight.webp");
+}
+
+html.dark body {
+  background-image: url("../images/backgrounds/backgroundDark.png");
+}
