@@ -6,27 +6,34 @@ import "@styles/global.css"
 
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/malsebasmal.webp" />
-		<meta name="generator" content={Astro.generator} />
-		<title>{metadata.title}</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/malsebasmal.webp" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{metadata.title}</title>
 
-		<meta name="description" content={metadata.description} />
-		<meta name="keywords" content={metadata.keywords} />
-		<meta name="author" content={metadata.author} />
-		<link rel="canonical" href={metadata.canonical} />
+    <meta name="description" content={metadata.description} />
+    <meta name="keywords" content={metadata.keywords} />
+    <meta name="author" content={metadata.author} />
+    <link rel="canonical" href={metadata.canonical} />
 
-		<meta property="og:title" content={metadata.og.title} />
-		<meta property="og:description" content={metadata.og.description} />
-		<meta property="og:url" content={metadata.og.url} />
-		<meta property="og:image" content={metadata.og.image} />
-		<meta property="og:type" content={metadata.og.type} />
+    {/* Open Graph / Redes Sociales */}
+    <meta property="og:title" content={metadata.og.title} />
+    <meta property="og:description" content={metadata.og.description} />
+    <meta property="og:url" content={metadata.og.url} />
+    <meta property="og:image" content={metadata.og.image} />
+    <meta property="og:type" content={metadata.og.type} />
 
-		<ClientRouter />
-	</head>
-	<body class="text-black dark:text-white bg-white dark:bg-black flex items-center justify-center w-full font-geist">
-		<slot />
-	</body>
+    {/* Twitter Cards */}
+    <meta name="twitter:card" content={metadata.twitter.card} />
+    <meta name="twitter:title" content={metadata.twitter.title} />
+    <meta name="twitter:description" content={metadata.twitter.description} />
+    <meta name="twitter:image" content={metadata.twitter.image} />
+
+    <ClientRouter />
+  </head>
+  <body class="text-black dark:text-white bg-white dark:bg-black flex items-center justify-center w-full font-geist">
+    <slot />
+  </body>
 </html>

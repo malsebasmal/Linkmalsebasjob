@@ -6,11 +6,9 @@ import ColorTheme from "@components/ColorTheme"
 <header class="w-full px-8 py-4 pt-6">
   <nav class="w-full">
     <ul class="w-full flex items-center justify-between">
-      <Share client:only />
+      <Share client:load />
       <li>
         <ul class="flex items-center justify-center gap-4">
-          <li>
-          </li>
           <ColorTheme client:load />
         </ul>
       </li>

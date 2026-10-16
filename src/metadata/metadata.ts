@@ -8,9 +8,15 @@ const metadata = {
     title: "Antonio Maldonado E. Job Links",
     description: "All my links in one place",
     url: "https://linkmalsebasjob.vercel.app",
-    image: "https://linkmalsebasjob.vercel.app/linkmalsebasjob.webp",
+    image: "https://linkmalsebasjob.vercel.app/linkmalsebasjob.png", // Cambiado a .png y dimensiones 1200x630 recomendadas
     type: 'website'
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Antonio Maldonado E. Job Links",
+    description: "All my links in one place",
+    image: "https://linkmalsebasjob.vercel.app/linkmalsebasjob.png",
+  }
 } as const
 
 export default metadata

@@ -2,9 +2,9 @@ import GitHub from "@images/icons/socials/GitHub.astro"
 import LinkedIn from "@images/icons/socials/LinkedIn.astro"
 import BlueSky from "@images/icons/socials/BlueSky.astro"
 import Dailydev from "@images/icons/socials/Dailydev.astro"
-import Medium from "@images/icons/socials/Medium.astro"
 import Dev from "@images/icons/socials/Dev.astro"
 import Hashnode from "@images/icons/socials/Hashnode.astro"
+import PeerList from "@images/icons/socials/PeerList.astro"
 
 const socialmedia = [
   {
@@ -22,25 +22,25 @@ const socialmedia = [
     copyTemplate: "🤝 Conecta conmigo en {name} ➭ {url}"
   },
   {
-    name: "BlueSky",
-    url: "https://bsky.app/profile/malsebasmal.bsky.social",
-    icon: BlueSky,
-    colors: { text: "#0085ff" },
-    copyTemplate: "☁️ Sígueme en {name} ➭ {url}"
+    name: "PeerList",
+    url: "https://peerlist.io/malsebasmal/posts",
+    icon: PeerList,
+    colors: { text: "#00AA45" },
+    copyTemplate: "🟩 Mira mi trabajo y proyectos en {name} ➭ {url}"
   },
   {
     name: "DailyDev",
-    url: "https://app.daily.dev/malsebasmal/upvoted",
+    url: "https://daily.dev/malsebasmal",
     icon: Dailydev,
     colors: { text: "#ac1de4" },
     copyTemplate: "🚀 Descubre lo que leo en {name} ➭ {url}"
   },
   {
-    name: "Medium",
-    url: "https://medium.com/@malsebasmal",
-    icon: Medium,
-    colors: { text: "black" },
-    copyTemplate: "✍️ Lee mis artículos en {name} ➭ {url}"
+    name: "BlueSky",
+    url: "https://bsky.app/profile/malsebasmal.bsky.social",
+    icon: BlueSky,
+    colors: { text: "#0085ff" },
+    copyTemplate: "☁️ Sígueme en {name} ➭ {url}"
   },
   {
     name: "Dev",
