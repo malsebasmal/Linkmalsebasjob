@@ -11,50 +11,50 @@ const socialmedia = [
     name: "GitHub",
     url: "https://github.com/malsebasmal",
     icon: GitHub,
-    colors: { text: "#1f2328" },
-    copyTemplate: "💻 Mira mi código en {name} ➭ {url}"
+    colors: { light: "#181717", dark: "#f0f6fc" },
+    copyTemplate: "💻 Check out my code on {name} ➭ {url}"
   },
   {
     name: "LinkedIn",
     url: "https://www.linkedin.com/in/antoniomaldonadotech",
     icon: LinkedIn,
-    colors: { text: "#0a66c2" },
-    copyTemplate: "🤝 Conecta conmigo en {name} ➭ {url}"
+    colors: { light: "#0a66c2", dark: "#0a66c2" },
+    copyTemplate: "🤝 Connect with me on {name} ➭ {url}"
   },
   {
     name: "PeerList",
     url: "https://peerlist.io/malsebasmal/posts",
     icon: PeerList,
-    colors: { text: "#00AA45" },
-    copyTemplate: "🟩 Mira mi trabajo y proyectos en {name} ➭ {url}"
+    colors: { light: "#00AA45", dark: "#00AA45" },
+    copyTemplate: "🟩 View my work & projects on {name} ➭ {url}"
   },
   {
     name: "DailyDev",
     url: "https://daily.dev/malsebasmal",
     icon: Dailydev,
-    colors: { text: "#ac1de4" },
-    copyTemplate: "🚀 Descubre lo que leo en {name} ➭ {url}"
+    colors: { light: "#ac1de4", dark: "#ac1de4" },
+    copyTemplate: "🚀 See what I read on {name} ➭ {url}"
   },
   {
     name: "BlueSky",
     url: "https://bsky.app/profile/malsebasmal.bsky.social",
     icon: BlueSky,
-    colors: { text: "#0085ff" },
-    copyTemplate: "☁️ Sígueme en {name} ➭ {url}"
+    colors: { light: "#0085ff", dark: "#0085ff" },
+    copyTemplate: "☁️ Follow me on {name} ➭ {url}"
   },
   {
     name: "Dev",
     url: "https://dev.to/malsebasmal",
     icon: Dev,
-    colors: { text: "black" },
-    copyTemplate: "👨‍💻 Explora mis posts en {name} ➭ {url}"
+    colors: { light: "#0a0a0a", dark: "#f1f5f9" },
+    copyTemplate: "👨‍💻 Read my articles on {name} ➭ {url}"
   },
   {
     name: "Hashnode",
     url: "https://hashnode.com/@malsebasmal",
     icon: Hashnode,
-    colors: { text: "#2563eb" },
-    copyTemplate: "🌐 Mis publicaciones en {name} ➭ {url}"
+    colors: { light: "#2563eb", dark: "#2563eb" },
+    copyTemplate: "🌐 Read my blog posts on {name} ➭ {url}"
   },
 ] as const
 
